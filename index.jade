@@ -1,0 +1,63 @@
+doctype html
+html(lang='uk',class='no-js')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width')
+    title Львівський напівмарафон 2016 - 24 квітня 2016 року у Львові
+    meta(name='description', content='24 квітня 2016 року у Львові відбудеться традиційний напівмарафон')
+    //- Favicon
+    <link rel="apple-touch-icon" sizes="57x57" href="images/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="images/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="images/favicons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="images/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="images/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" href="images/favicons/favicon.ico">
+    <link rel="manifest" href="images/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="images/favicons/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    //- Links
+    link(href='http://fonts.googleapis.com/css?family=Open+Sans:400,700|Open+Sans+Condensed:700&subset=latin,cyrillic', rel='stylesheet', type='text/css')
+    link(rel='stylesheet', href='css/compiled.css')
+    //- link(rel='stylesheet', href='/css/flipclock.css')
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js')
+    script(src='js/compiled.min.js')
+
+  body
+    //- Header
+    header.jumbotron.header.front-page
+      .container
+        .d
+          .d1 24
+          .d2 Квітня
+          .d3 Львів
+
+        ul.language-selector
+          li
+            a.active(href='/') Укр
+
+        .clearfix
+        .title
+          h1 Львівський півмарафон 2016
+          p Початок змагань о 10.00,<br > урочисте нагородження о <span itemprop="endDate" content="2016-04-24T13:00">13.00</span>
+        .clearfix
+        .clock.start-timer
+        .clearfix
+
+        p
+          a.btn.btn-danger.btn-lg(href="http://ua.runstyle.com.ua/tournament_view.php?tid=30" target="_blank" role="button") Зареєструватись
+
+    //- Footer
+    footer.footer
+      .container
+        p.text-muted.pull-left Спортивний клуб "Ультра" &copy; 2011-2016
+        p.text-muted.pull-right Розробка і технічна підтримка <a href="mailto:gvizdyk@gmail.com">Yuriy Hvozdovych</a>

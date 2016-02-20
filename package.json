@@ -1,0 +1,18 @@
+{
+  "name": "marathon.lviv.ua",
+  "version": "1.0.0",
+  "email": "gvizdyk@gmail.com",
+  "author": "Yuriy Hvozdovych",
+  "devDependencies": {
+    "jade": "latest",
+    "grunt": "~0.4.4",
+    "grunt-cli": "0.1.13",
+    "grunt-postcss": "latest",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-jshint": "~0.6.3",
+    "grunt-contrib-uglify": "~0.2.7",
+    "grunt-contrib-less": "latest",
+    "grunt-contrib-watch": "latest",
+    "autoprefixer": "latest"
+  }
+}
