@@ -1,0 +1,81 @@
+/*
+ * 	Default theme - Owl Carousel CSS File
+ */
+
+@color-base: #869791;
+@color-white: #FFF;
+@color-gray: #D6D6D6;
+
+//nav
+
+@nav-color: 			@color-white;
+@nav-color-hover:		@color-white;
+@nav-font-size: 		14px;
+@nav-rounded: 			3px;
+@nav-margin: 			5px;
+@nav-padding: 			4px 7px;
+
+
+.owl-theme {
+	// Styling Next and Prev buttons
+	.owl-nav {
+		margin-top: 10px;
+		text-align: center;
+		-webkit-tap-highlight-color: transparent;
+
+		[class*='owl-'] {
+			color: @nav-color;
+			font-size: @nav-font-size;
+			margin: @nav-margin;
+			padding: @nav-padding;
+			background: @color-gray;
+			display: inline-block;
+			cursor: pointer;
+			border-radius: 3px;
+
+			&:hover {
+				background: @color-base;
+				color:@nav-color-hover;
+				text-decoration: none;
+			}
+		}
+		.disabled {
+			opacity: 0.5;
+			cursor: default;
+		}
+	}
+
+	// Styling dots
+	.owl-nav.disabled + .owl-dots {
+		margin-top: 10px;
+	}
+	.owl-dots {
+		text-align: center;
+		-webkit-tap-highlight-color: transparent;
+
+		.owl-dot {
+			display: inline-block;
+			border: 2px solid @color-gray;
+			border-radius: 50%;
+
+			span {
+				width: 10px;
+				height: 10px;
+				margin: 5px;
+				background: @color-gray;
+				display: block;
+				-webkit-backface-visibility: visible;
+				transition: opacity 200ms ease;
+				border-radius: 50%;
+			}
+
+			&.active,
+			&:hover {
+				span {
+					background: @color-base;
+					border-color: @color-base;
+				}
+			}
+		}
+	}
+}

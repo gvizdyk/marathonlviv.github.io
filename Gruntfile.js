@@ -33,6 +33,7 @@ module.exports = function (grunt) {
       js: {
         src: [
           'js/flipclock.js',
+          'js/owl.carousel.js',
           'js/marathonlviv.js'
         ],
         dest: 'js/compiled.min.js'

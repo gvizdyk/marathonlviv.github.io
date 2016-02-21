@@ -36,4 +36,29 @@ $(document).ready(function() {
     language: 'ua',
     countdown: true
   });
+
+
+  $('.owl-carousel').owlCarousel({
+    // items: 2,
+    loop:true,
+    margin:30,
+    nav:true,
+    responsive:{
+      0:{
+          items:1
+      },
+      480:{
+          items:2
+      },
+      768:{
+          items:4
+      },
+      1200:{
+          items:5
+      }
+    }
+  });
+
+
+
 });
