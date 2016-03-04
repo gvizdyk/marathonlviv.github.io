@@ -1,0 +1,202 @@
+extends ../jade/layout.jade
+
+block title
+  - var pageTitle = 'Home'
+  - var titleSite = 'Lviv Half Marathon 2016 - April 24, 2016'
+  title #{pageTitle} - #{titleSite}
+block description
+  meta(name='description', content='#{pageTitle}. #{titleSite}.')
+
+block content
+
+  //- Header
+  header.header.front-page
+    .container
+      .d
+        .d1 24
+        .d2 April
+        .d3 Lviv
+
+      - var language = 'en'
+      include ../jade/language-selector.jade
+
+      .clearfix
+      .title
+        h1 Lviv Half Marathon 2016
+        p The competition starts at 10 a.m.,<br> the award ceremony is at 1 p.m.
+      .clearfix
+      .clock.start-timer
+      .clearfix
+
+      p
+        a.btn.btn-danger.btn-lg(href="http://ua.runstyle.com.ua/tournament_view.php?tid=30" target="_blank" role="button") Register
+
+  //- Content
+  section.section-content
+    .container.text-center
+      h1 The competition program of the Lviv Half Marathon 2016
+      h3 Saturday, April 23, 2016 (arrival day)
+      table(class="table table-condensed" style="width: 70%; text-align: left; margin: 0 auto 40px;")
+        thead
+          tr
+            th Time
+            th Description
+        tbody
+          tr
+            td 16.00
+            td The start of the Secretariat's work.<br> Issuance of bib numbers, chips, entry fee payment.<br> The completion of the half marathon registration.<br> Pasta Party.<br> <strong><u>Pay attention that on the competition day (April 24)<br> there is no opportunity to register for the half marathon.</u></strong>
+
+      h3 Sunday, April 24
+      table(class="table table-condensed" style="width: 70%; text-align: left; margin: 0 auto 40px;")
+        thead
+          tr
+            th Time
+            th Description
+        tbody
+          tr
+            td 8.00
+            td The start of the Secretariat's work.
+          tr
+            td 9.30
+            td The completion of the 4 km charity run registration.
+          tr
+            td 9.30
+            td The opening ceremony (the Svoboda avenue).
+          tr
+            td 10.00
+            td The competition's start
+          tr
+            td 13.00
+            td The time limit completion
+          tr
+            td 13.30
+            td The award ceremony
+          tr
+            td 13.45
+            td The competition's closure
+
+  section.section-content.content-info.section-even
+    .container
+      h1 To participate in the competition you need:
+      .row
+        .col-sm-6.col-md-4
+          .caption
+            h2 Statement of good health
+            p Statement of good health (medical certificate) confirming satisfactory state of your health is obligatory. Also we require a signed statement, which indicates that each participant takes part in competition at their own risk and responsibility.
+
+        .col-sm-6.col-md-4
+          .caption
+            h2: a(href="#section-paid") Entry fee
+            p You can pay the entry fee: by transferring money to the Privatbank card 4149 4978 3489 1931 (Pidluzhna Iryna Romanivna) before April 10, 2016, or in the competition's Secretariat on April 23, 2016. <strong><s>The entry fee is 200 UAH before February 15, 2016</s></strong>.
+
+        .col-sm-12.col-md-4
+          .caption
+            h2 Age
+            p Any person who is 18 years or older on the day of the event (April 24, 2016) can compete.
+
+      .row
+        .col-sm-6.col-md-4
+          .caption
+            h2 Provision
+            p Read provisions on the conduction of the 21 km running competition "Lviv Half Marathon 2016".
+            p: a(href="http://ua.runstyle.com.ua/statut/halfmarathon2016.pdf", target="_blank") Download here
+
+        .col-sm-6.col-md-4
+          .caption
+            h2 Regulations
+            p Regulated time to overcome distance - 3 hours. Participants who will be unable to cover the distance in regulated time must take off their bib number and leave the competition route.
+
+        .col-sm-12.col-md-4
+          .caption
+            h2 Health care
+            p The competition organizers will provide medical services to the participants during the competition (doctor will be at the start and the finish). Route will be accompanied by an ambulance.
+
+  section.section-content.maps-info
+    .container.text-center
+      h1 The route and running distance
+      .container.text-center.info
+        p.lead Distance is 21,1 km.<br> <strong>The time will be measured using electronic system.</strong>
+        p.lead The route will be marked, as well as every kilometer of the distance. Volunteers and judges will help to organize movement on the road.
+        p.lead The competition program also includes 4 km charity run.
+
+  section.section-content.section-register.section-even
+    .container.text-center.info
+      h1 Registration
+      p.lead Each competitor must register for the competition by #[a(target="_blank", href="http://ua.runstyle.com.ua/tournament_view.php?tid=30") passing preliminary e-registration], or directly in the competition's <strong>Secretariat that will work on Aptil 23, 2016.</strong>
+      p.lead Admission of additional applications, registration of participants, and issuance of bib numbers will be held <strong><u>only on April 23, Saturday at 4 p.m. during the Pasta Party.</u></strong>
+      p.lead The final application for participation in the competition is: pre-registration, medical certificate, the signed statement, the entry fee payment.
+
+  section.section-content.umovy-uchasti-info#section-paid
+    .container.text-center.info
+      h1 Entry fee
+      p.lead You can pay the entry fee: transferring money to the Privatbank card 4149 4978 3489 1931 (Pidluzhna Iryna Romanivna) before April 10, 2016, or in the competition's Secretariat on April 23, 2016.
+
+    .container
+      table.table.table-condensed(style="width: 70%; text-align: left; margin: 0 auto 40px;")
+        thead
+          tr
+            th #
+            th Fee
+            th Date
+        tbody
+          tr
+            th <s>1</s>
+            td <s>200 UAH</s>
+            td <s>before February 15, 2016</s>
+          tr
+            th 2
+            td 250 UAH
+            td before April 10, 2016
+          tr
+            th 3
+            td 300 UAH
+            td April 23, 2016
+          tr
+            th 4
+            td 100 UAH
+            td for competitors over 60
+
+    .container.text-center.info
+      p.lead In case of registration cancellation carried<br> out payment will not be refunded!
+
+  section.section-content.section-even#section-organizers
+    .container.text-center.info
+      h1 Organizers
+
+      .row(style="margin-bottom: 40px;")
+        .col-sm-6.col-md-6
+          img(class="portrait", src="/images/ykondyukh.jpg", alt="Competition manager - Yaroslav Kondyukh")
+          .caption
+            h2 Yaroslav Kondyukh
+            p(style="font-size:14px;") Competition manager, president of the sports club "Ultra". <br> Tell. (097)411-4951, (093)942-6112. <br> #[a(href="mailto:c_ultra@ukr.net") c_ultra@ukr.net].
+
+        .col-sm-6.col-md-6
+          img(class="portrait", src="/images/ipidluzhna.jpg", alt="Competition manager - Iryna Pidluzhna")
+          .caption
+            h2 Iryna Pidluzhna
+            p(style="font-size:14px;") Competition manager, president of the tourism and sports club "Chornohora".<br> Tell. (063)722-6424, (097)945-0351. <br> #[a(href="mailto:pidluzhna.ira@gmail.com") pidluzhna.ira@gmail.com].
+
+      .row
+        .col-sm-6.col-md-4
+          img(src="/images/logo-sk-ultra.png", alt="Sports club 'Ultra'")
+          .caption
+            h2 Sports club "Ultra"
+            p(style="font-size:14px;"): a(href="https://goo.gl/gHgqeh" target="_blank") goo.gl/gHgqeh
+
+        .col-sm-6.col-md-4
+          img(src="/images/logo-tk-chornogora.png", alt="Tourism and sports club 'Chornohora'")
+          .caption
+            h2 Tourism and sports club "Chornohora"
+            p(style="font-size:14px;"): a(href="https://goo.gl/wUN2t0" target="_blank") goo.gl/wUN2t0
+
+        .col-sm-6.col-md-4
+          img(src="/images/logo-flal.png", width="287", alt="Athletic Federation of Lviv Oblast")
+          .caption
+            h2 Athletic Federation of Lviv Oblast
+            p(style="font-size:14px;"): a(href="http://goo.gl/zVisk0" target="_blank") goo.gl/zVisk0
+
+  //- Footer
+  footer.footer
+    .container
+      p.text-muted.pull-left Sports club "Ultra" &copy; 2011-2016
+      p.text-muted.pull-right Development and support <a href="mailto:gvizdyk@gmail.com">Yuriy Hvozdovych</a>
