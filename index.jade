@@ -1,272 +1,238 @@
-doctype html
-html(lang='uk',class='no-js')
-  head
-    meta(charset='utf-8')
-    meta(http-equiv='X-UA-Compatible', content='IE=edge')
-    meta(name='viewport', content='width=device-width')
-    title Львівський напівмарафон 2016 - 24 квітня 2016 року у Львові
-    meta(name='description', content='24 квітня 2016 року у Львові відбудеться традиційний напівмарафон')
-    //- Favicon
-    link(rel="apple-touch-icon", sizes="57x57", href="images/favicons/apple-touch-icon-57x57.png")
-    link(rel="apple-touch-icon", sizes="60x60", href="images/favicons/apple-touch-icon-60x60.png")
-    link(rel="apple-touch-icon", sizes="72x72", href="images/favicons/apple-touch-icon-72x72.png")
-    link(rel="apple-touch-icon", sizes="76x76", href="images/favicons/apple-touch-icon-76x76.png")
-    link(rel="apple-touch-icon", sizes="114x114", href="images/favicons/apple-touch-icon-114x114.png")
-    link(rel="apple-touch-icon", sizes="120x120", href="images/favicons/apple-touch-icon-120x120.png")
-    link(rel="apple-touch-icon", sizes="144x144", href="images/favicons/apple-touch-icon-144x144.png")
-    link(rel="apple-touch-icon", sizes="152x152", href="images/favicons/apple-touch-icon-152x152.png")
-    link(rel="apple-touch-icon", sizes="180x180", href="images/favicons/apple-touch-icon-180x180.png")
-    link(rel="icon", type="image/png", href="images/favicons/favicon-32x32.png", sizes="32x32")
-    link(rel="icon", type="image/png", href="images/favicons/android-chrome-192x192.png", sizes="192x192")
-    link(rel="icon", type="image/png", href="images/favicons/favicon-96x96.png", sizes="96x96")
-    link(rel="icon", type="image/png", href="images/favicons/favicon-16x16.png", sizes="16x16")
-    link(rel="icon", href="images/favicons/favicon.ico")
-    link(rel="manifest", href="images/favicons/manifest.json")
-    meta(name="msapplication-TileColor", content="#da532c")
-    meta(name="msapplication-TileImage", content="images/favicons/mstile-144x144.png")
-    meta(name="theme-color", content="#ffffff")
-    //- Links
-    link(href='//fonts.googleapis.com/css?family=Open+Sans:400,700|Open+Sans+Condensed:700&subset=latin,cyrillic', rel='stylesheet', type='text/css')
-    link(rel='stylesheet', href='css/compiled.css')
-    script(src='//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js')
-    script(src='js/compiled.min.js')
+extends ./jade/layout.jade
 
-  body
-    //- Header
-    header.jumbotron.header.front-page
-      .container
-        .d
-          .d1 24
-          .d2 Квітня
-          .d3 Львів
+block title
+  - var pageTitle = 'Головна'
+  title #{pageTitle} - #{titleSite}
+block description
+  meta(name='description', content='#{pageTitle}. #{titleSite}.')
 
-        ul.language-selector
-          li
-            a.active(href='/') Укр
+block content
 
-        .clearfix
-        .title
-          h1 Львівський півмарафон 2016
-          p Початок змагань о 10.00,<br> урочисте нагородження о <span itemprop="endDate" content="2016-04-24T13:00">13.00</span>
-        .clearfix
-        .clock.start-timer
-        .clearfix
+  //- Header
+  header.header.front-page
+    .container
+      .d
+        .d1 24
+        .d2 Квітня
+        .d3 Львів
 
-        p
-          a.btn.btn-danger.btn-lg(href="http://ua.runstyle.com.ua/tournament_view.php?tid=30" target="_blank" role="button") Зареєструватись
+      - var language = 'ua'
+      include ./jade/language-selector.jade
 
-    //- Content
-    section.section-content
-      .container.text-center
-        h1 Програма змагань "Львівський напівмарафон 2016"
-        h3 Субота, 23 квітня 2016 року (день приїзду)
-        table(class="table table-condensed" style="width: 70%; text-align: left; margin: 0 auto 40px;")
-          thead
-            tr
-              th Час
-              th Опис
-          tbody
-            tr
-              td 16.00
-              td Початок роботи Секретаріату змагань.<br> Видача нагрудних номерів, чіпів, оплата стартових внесків.<br> Завершення реєстрації на напівмарафон.<br> Pasta Party.<br> <strong><u>Просимо зауважити, що у день змагань (24 квітня)<br> не буде можливості зареєструватись на напівмарафон.</u></strong>
+      .clearfix
+      .title
+        h1 Львівський півмарафон 2016
+        p Початок змагань о 10.00,<br> урочисте нагородження о <span itemprop="endDate" content="2016-04-24T13:00">13.00</span>
+      .clearfix
+      .clock.start-timer
+      .clearfix
 
-        h3 Неділя, 24 квітня
-        table(class="table table-condensed" style="width: 70%; text-align: left; margin: 0 auto 40px;")
-          thead
-            tr
-              th Час
-              th Опис
-          tbody
-            tr
-              td 8.00
-              td Початок роботи Секретаріату змагань.
-            tr
-              td 9.30
-              td Завершення реєстрації на Благодійний забіг 4 кілометри
-            tr
-              td 9.30
-              td Урочисте відкриття змагань (проспект Свободи).
-            tr
-              td 10.00
-              td Старт змагань
-            tr
-              td 13.00
-              td Завершення ліміту часу
-            tr
-              td 13.30
-              td Урочисте нагородження переможців та призерів
-            tr
-              td 13.45
-              td Закриття змагань
+      p
+        a.btn.btn-danger.btn-lg(href="http://ua.runstyle.com.ua/tournament_view.php?tid=30" target="_blank" role="button") Зареєструватись
 
-    section.section-content.content-info.section-even
-      .container
-        h1 Для участі в пробізі Вам потрібно:
-        .row
-          .col-sm-6.col-md-4
-            .caption
-              h2 Медична довідка
-              p Обов’язковою умовою участі у змаганнях є медична довідка про задовільний стан здоров’я та заява із особистим підписом, який свідчить про те, що кожен учасник напівмарафону бере участь у змаганнях на власну відповідальність.
+  //- Content
+  section.section-content
+    .container.text-center
+      h1 Програма змагань "Львівський напівмарафон 2016"
+      h3 Субота, 23 квітня 2016 року (день приїзду)
+      table(class="table table-condensed" style="width: 70%; text-align: left; margin: 0 auto 40px;")
+        thead
+          tr
+            th Час
+            th Опис
+        tbody
+          tr
+            td 16.00
+            td Початок роботи Секретаріату змагань.<br> Видача нагрудних номерів, чіпів, оплата стартових внесків.<br> Завершення реєстрації на напівмарафон.<br> Pasta Party.<br> <strong><u>Просимо зауважити, що у день змагань (24 квітня)<br> не буде можливості зареєструватись на напівмарафон.</u></strong>
 
-          .col-sm-6.col-md-4
-            .caption
-              h2: a(href="#section-paid") Стартовий внеск
-              p Оплатити стартовий внесок можна: Перерахувавши кошти на картку ПриватБанку 4149 4978 3489 1931 (Підлужна Ірина Романівна) до 10 квітня 2016 року, або у Секретаріаті змагань 23 квітня 2016. <strong><s>Стартовий внесок становить 200 грн до 15 лютого 2016 року</s></strong>.
+      h3 Неділя, 24 квітня
+      table(class="table table-condensed" style="width: 70%; text-align: left; margin: 0 auto 40px;")
+        thead
+          tr
+            th Час
+            th Опис
+        tbody
+          tr
+            td 8.00
+            td Початок роботи Секретаріату змагань.
+          tr
+            td 9.30
+            td Завершення реєстрації на Благодійний забіг 4 кілометри
+          tr
+            td 9.30
+            td Урочисте відкриття змагань (проспект Свободи).
+          tr
+            td 10.00
+            td Старт змагань
+          tr
+            td 13.00
+            td Завершення ліміту часу
+          tr
+            td 13.30
+            td Урочисте нагородження переможців та призерів
+          tr
+            td 13.45
+            td Закриття змагань
 
-          .col-sm-12.col-md-4
-            .caption
-              h2 Вік
-              p Учасником змагань може бути будь-яка особа, якій на день проведення змагань (24 квітня 2016 року) <strong>виповнилось 18 років.</strong>
+  section.section-content.content-info.section-even
+    .container
+      h1 Для участі в пробізі Вам потрібно:
+      .row
+        .col-sm-6.col-md-4
+          .caption
+            h2 Медична довідка
+            p Обов’язковою умовою участі у змаганнях є медична довідка про задовільний стан здоров’я та заява із особистим підписом, який свідчить про те, що кожен учасник напівмарафону бере участь у змаганнях на власну відповідальність.
 
-        .row
-          .col-sm-6.col-md-4
-            .caption
-              h2 Положення
-              p Ознайомитись із положення про проведення 21-кілометрового пробігу "Львівський напівмарафон 2016"
-              p: a(href="http://ua.runstyle.com.ua/statut/halfmarathon2016.pdf", target="_blank") Завантажити тут
+        .col-sm-6.col-md-4
+          .caption
+            h2: a(href="#section-paid") Стартовий внеск
+            p Оплатити стартовий внесок можна: Перерахувавши кошти на картку ПриватБанку 4149 4978 3489 1931 (Підлужна Ірина Романівна) до 10 квітня 2016 року, або у Секретаріаті змагань 23 квітня 2016. <strong><s>Стартовий внесок становить 200 грн до 15 лютого 2016 року</s></strong>.
 
-          .col-sm-6.col-md-4
-            .caption
-              h2 Регламент
-              p Регламентований час на подолання дистанції – 3 год. Учасники які не зможуть подолати дистанцію у регламентований час повинні зняти нагрудний номер та залишити трасу пробігу.
+        .col-sm-12.col-md-4
+          .caption
+            h2 Вік
+            p Учасником змагань може бути будь-яка особа, якій на день проведення змагань (24 квітня 2016 року) <strong>виповнилось 18 років.</strong>
 
-          .col-sm-12.col-md-4
-            .caption
-              h2 Медичне обслуговування
-              p Організатори змагань забезпечують медичне обслуговування учасників під час змагань (лікар на старті та фініші), супровід каретою швидкої допомоги
+      .row
+        .col-sm-6.col-md-4
+          .caption
+            h2 Положення
+            p Ознайомитись із положення про проведення 21-кілометрового пробігу "Львівський напівмарафон 2016"
+            p: a(href="http://ua.runstyle.com.ua/statut/halfmarathon2016.pdf", target="_blank") Завантажити тут
 
-    section.section-content
-      .container.text-center
-        h1 Анонси та новини
+        .col-sm-6.col-md-4
+          .caption
+            h2 Регламент
+            p Регламентований час на подолання дистанції – 3 год. Учасники які не зможуть подолати дистанцію у регламентований час повинні зняти нагрудний номер та залишити трасу пробігу.
 
-      .owl-carousel
-        .item
-          img(src="images/content/trk-ljuks.jpg", alt="ТРК Люкс - генеральний медіа-партнер 'Львівського напівмарафону-2016'")
-          date 20 лютого 2016
-          h2 ТРК Люкс - генеральний медіа-партнер "Львівського напівмарафону-2016"
-          p Шановні друзі! Маємо добру новину! Генеральним медіа-партнером "Львівського напівмарафону-2016" є ТРК ЛЮКС! Чекайте цікавих ефірів про наш Напівмарафон на хвилях LUX FM!
-        .item
-          img(src="images/content/training-14022016.jpg", alt="ТРК Люкс - генеральний медіа-партнер 'Львівського напівмарафону-2016'")
-          date 14 лютого 2016
-          h2 Відмінне тренування недільного ранкового дня, 14 лютого 2016 року
-          p Дякуємо усім хто завітав до нас на тренування, яке відбувалось у легкоатлетичному манежі СКА (м. Львів, вул.Клепарівська 39а), у неділю 14 лютого 2016 року.
-        .item
-          date 10 лютого 2016
-          h2 Запрошуємо на тренування у неділю 14 лютого 2016 року
-          p Запрошуємо усіх охочих (ОСОБЛИВО ПОЧАТКІВЦІВ) на тренування у рамках підготовки до Львівського півмарафону-2016! Тренування проходитиме у легкоатлетичному манежі СКА (м. Львів, вул.Клепарівська 39а), у неділю 14 лютого 2016 року. ПОЧАТОК ТРЕНУВАННЯ о 12.00!!! Деталі за тел. 0974114951, 0939426112 - Ярослав
-        .item
-          img(src="images/content/info-run-4km.jpg", alt="Благодійний забіг на 4 кілометри")
-          date 28 січня 2016
-          h2 Благодійний забіг на 4 кілометри!
-          p 24 квітня 2016, у рамках проведення Львівського напівмарафону, відбудеться забіг на 4 кілометри. Даний захід матиме формат благодійного забігу. Усі учасники, які захочуть прийняти участь, зможуть не тільки долучитись до здорового способу життя, а й допомогти зібрати кошти для благодійної цілі. Організатори планують передати усі зібрані кошти на лікування комусь, хто дійсно цього потребує. Додаткова інформація згодом!
-        .item
-          date 22 січня 2016
-          h2 Запрошуємо на тренування у неділю 24 січня 2016 року
-          p Запрошуємо усіх охочих на тренування у рамках підготовки до Львівського півмарафону-2016! Тренування проходитиме у легкоатлетичному манежі СКА (м. Львів, вул.Клепарівська 39а), у неділю 24 січня 2016 року. Початок тренування о 12.00. Деталі за тел. 0974114951, 0939426112 - Ярослав
-        .item
-          date 28 грудня 2015
-          h2 Запрошуємо ознайомитися з Положенням про Львівський напівмарафон 2016
-          p Запрошуємо ознайомитися з #[a(target="_blank", href="http://ua.runstyle.com.ua/statut/halfmarathon2016.pdf") Положенням про Львівський напівмарафон 2016].
-        .item
-          date 14 грудня 2015
-          h2 Відкрито реєстрацію на Львівський напівмарафон 2016
-          P Відкрито реєстрацію на Львівський напівмарафон 2016, який відбудеться 24 квітня!!! #[a(target="_blank", href="http://ua.runstyle.com.ua/tournament_view.php?tid=30") Подати попередню заявку]
+        .col-sm-12.col-md-4
+          .caption
+            h2 Медичне обслуговування
+            p Організатори змагань забезпечують медичне обслуговування учасників під час змагань (лікар на старті та фініші), супровід каретою швидкої допомоги
 
-    section.section-content.maps-info.section-even
-      .container.text-center
-        h1 Траса та дистанція пробігу
-        .container.text-center.info
-          p.lead Дистанція пробігу – 21,1 кілометрів.<br> <strong>Вимір часу здійснюватиметься за допомогою електронної системи</strong>
-          p.lead Траса буде промаркована, а також будуть встановленні відмітки на кожному кілометрі дистанції. В організації руху на трасі учасникам допомагатимуть волонтери та судді змагань.
-          p.lead У програмі змагань буде додатково забіг на 4 кілометри.
+  section.section-content
+    .container.text-center
+      h1 Анонси та новини
 
-    section.section-content.section-register
+    .owl-carousel
+      .item
+        img(src="images/content/trk-ljuks.jpg", alt="ТРК Люкс - генеральний медіа-партнер 'Львівського напівмарафону-2016'")
+        date 20 лютого 2016
+        h2 ТРК Люкс - генеральний медіа-партнер "Львівського напівмарафону-2016"
+        p Шановні друзі! Маємо добру новину! Генеральним медіа-партнером "Львівського напівмарафону-2016" є ТРК ЛЮКС! Чекайте цікавих ефірів про наш Напівмарафон на хвилях LUX FM!
+      .item
+        img(src="images/content/training-14022016.jpg", alt="ТРК Люкс - генеральний медіа-партнер 'Львівського напівмарафону-2016'")
+        date 14 лютого 2016
+        h2 Відмінне тренування недільного ранкового дня, 14 лютого 2016 року
+        p Дякуємо усім хто завітав до нас на тренування, яке відбувалось у легкоатлетичному манежі СКА (м. Львів, вул.Клепарівська 39а), у неділю 14 лютого 2016 року.
+      .item
+        date 10 лютого 2016
+        h2 Запрошуємо на тренування у неділю 14 лютого 2016 року
+        p Запрошуємо усіх охочих (ОСОБЛИВО ПОЧАТКІВЦІВ) на тренування у рамках підготовки до Львівського півмарафону-2016! Тренування проходитиме у легкоатлетичному манежі СКА (м. Львів, вул.Клепарівська 39а), у неділю 14 лютого 2016 року. ПОЧАТОК ТРЕНУВАННЯ о 12.00!!! Деталі за тел. 0974114951, 0939426112 - Ярослав
+      .item
+        img(src="images/content/info-run-4km.jpg", alt="Благодійний забіг на 4 кілометри")
+        date 28 січня 2016
+        h2 Благодійний забіг на 4 кілометри!
+        p 24 квітня 2016, у рамках проведення Львівського напівмарафону, відбудеться забіг на 4 кілометри. Даний захід матиме формат благодійного забігу. Усі учасники, які захочуть прийняти участь, зможуть не тільки долучитись до здорового способу життя, а й допомогти зібрати кошти для благодійної цілі. Організатори планують передати усі зібрані кошти на лікування комусь, хто дійсно цього потребує. Додаткова інформація згодом!
+      .item
+        date 22 січня 2016
+        h2 Запрошуємо на тренування у неділю 24 січня 2016 року
+        p Запрошуємо усіх охочих на тренування у рамках підготовки до Львівського півмарафону-2016! Тренування проходитиме у легкоатлетичному манежі СКА (м. Львів, вул.Клепарівська 39а), у неділю 24 січня 2016 року. Початок тренування о 12.00. Деталі за тел. 0974114951, 0939426112 - Ярослав
+      .item
+        date 28 грудня 2015
+        h2 Запрошуємо ознайомитися з Положенням про Львівський напівмарафон 2016
+        p Запрошуємо ознайомитися з #[a(target="_blank", href="http://ua.runstyle.com.ua/statut/halfmarathon2016.pdf") Положенням про Львівський напівмарафон 2016].
+      .item
+        date 14 грудня 2015
+        h2 Відкрито реєстрацію на Львівський напівмарафон 2016
+        P Відкрито реєстрацію на Львівський напівмарафон 2016, який відбудеться 24 квітня!!! #[a(target="_blank", href="http://ua.runstyle.com.ua/tournament_view.php?tid=30") Подати попередню заявку]
+
+  section.section-content.maps-info.section-even
+    .container.text-center
+      h1 Траса та дистанція пробігу
       .container.text-center.info
-        h1 Реєстрація
-        p.lead Кожен учасник змагань повинен зареєструватись для участі у змаганнях пройшовши #[a(target="_blank", href="http://ua.runstyle.com.ua/tournament_view.php?tid=30") попередню електронну реєстрацію], або безпосередньо у <strong>Секретаріаті змагань, що працюватиме 23 квітня 2016 року.</strong>
-        p.lead Прийом додаткових заявок, реєстрація учасників, видача стартових номерів відбуватиметься <strong><u>виключно 23 квітня, у суботу з 16.00, під чаc проведення Pasta Party</u></strong>
-        p.lead Остаточною заявкою для участі у змаганнях вважається: попередня реєстрація, медична довідка та заява учасника пробігу із особистим підписом, оплата стартового внеску.
+        p.lead Дистанція пробігу – 21,1 кілометрів.<br> <strong>Вимір часу здійснюватиметься за допомогою електронної системи</strong>
+        p.lead Траса буде промаркована, а також будуть встановленні відмітки на кожному кілометрі дистанції. В організації руху на трасі учасникам допомагатимуть волонтери та судді змагань.
+        p.lead У програмі змагань буде додатково забіг на 4 кілометри.
 
-    section.section-content.umovy-uchasti-info.section-even#section-paid
-      .container.text-center.info
-        h1 Cтартовий внесок
-        p.lead Оплатити стартовий внесок можна: перерахувавши кошти на картку ПриватБанку 4149 4978 3489 1931 (Підлужна Ірина Романівна) до 10 квітня 2016 року, або у Секретаріаті змагань 23 квітня 2016 року.
+  section.section-content.section-register
+    .container.text-center.info
+      h1 Реєстрація
+      p.lead Кожен учасник змагань повинен зареєструватись для участі у змаганнях пройшовши #[a(target="_blank", href="http://ua.runstyle.com.ua/tournament_view.php?tid=30") попередню електронну реєстрацію], або безпосередньо у <strong>Секретаріаті змагань, що працюватиме 23 квітня 2016 року.</strong>
+      p.lead Прийом додаткових заявок, реєстрація учасників, видача стартових номерів відбуватиметься <strong><u>виключно 23 квітня, у суботу з 16.00, під чаc проведення Pasta Party</u></strong>
+      p.lead Остаточною заявкою для участі у змаганнях вважається: попередня реєстрація, медична довідка та заява учасника пробігу із особистим підписом, оплата стартового внеску.
 
-      .container
-        table.table.table-condensed(style="width: 70%; text-align: left; margin: 0 auto 40px;")
-          thead
-            tr
-              th #
-              th Вартість
-              th Дата
-          tbody
-            tr
-              th <s>1</s>
-              td <s>200 гривень</s>
-              td <s>до 15 лютого 2016 року</s>
-            tr
-              th 2
-              td 250 гривень
-              td до 10 квітня 2016 року
-            tr
-              th 3
-              td 300 гривень
-              td 23 квітня 2016 року
-            tr
-              th 4
-              td 100 гривень
-              td для учасників змагань старше 60 років
+  section.section-content.umovy-uchasti-info.section-even#section-paid
+    .container.text-center.info
+      h1 Cтартовий внесок
+      p.lead Оплатити стартовий внесок можна: перерахувавши кошти на картку ПриватБанку 4149 4978 3489 1931 (Підлужна Ірина Романівна) до 10 квітня 2016 року, або у Секретаріаті змагань 23 квітня 2016 року.
 
-      .container.text-center.info
-        p.lead Проведенна оплата при скасуванні реєстрації<br> учасником змагань поверненню не підлягає!
+    .container
+      table.table.table-condensed(style="width: 70%; text-align: left; margin: 0 auto 40px;")
+        thead
+          tr
+            th #
+            th Вартість
+            th Дата
+        tbody
+          tr
+            th <s>1</s>
+            td <s>200 гривень</s>
+            td <s>до 15 лютого 2016 року</s>
+          tr
+            th 2
+            td 250 гривень
+            td до 10 квітня 2016 року
+          tr
+            th 3
+            td 300 гривень
+            td 23 квітня 2016 року
+          tr
+            th 4
+            td 100 гривень
+            td для учасників змагань старше 60 років
 
-    section.section-content#section-organizers
-      .container.text-center.info
-        h1 Організатори
+    .container.text-center.info
+      p.lead Проведенна оплата при скасуванні реєстрації<br> учасником змагань поверненню не підлягає!
 
-        .row(style="margin-bottom: 40px;")
-          .col-sm-6.col-md-6
-            img(class="portrait", src="images/ykondyukh.jpg", alt="Керівник змагань - Ярослав Кондюх")
-            .caption
-              h2 Ярослав Кондюх
-              p(style="font-size:14px;") Керівник змагань, президент спортивного клубу "Ультра". <br> Тел. (097)411-4951, (093)942-6112. <br> #[a(href="mailto:c_ultra@ukr.net") c_ultra@ukr.net].
+  section.section-content#section-organizers
+    .container.text-center.info
+      h1 Організатори
 
-          .col-sm-6.col-md-6
-            img(class="portrait", src="images/ipidluzhna.jpg", alt="Керівник змагань - Ірина Підлужна")
-            .caption
-              h2 Ірина Підлужна
-              p(style="font-size:14px;") Керівник змагань, президент туристично-спортивного клубу "Чорногора".<br> Тел. (063)722-6424, (097)945-0351. <br> #[a(href="mailto:pidluzhna.ira@gmail.com") pidluzhna.ira@gmail.com].
+      .row(style="margin-bottom: 40px;")
+        .col-sm-6.col-md-6
+          img(class="portrait", src="images/ykondyukh.jpg", alt="Керівник змагань - Ярослав Кондюх")
+          .caption
+            h2 Ярослав Кондюх
+            p(style="font-size:14px;") Керівник змагань, президент спортивного клубу "Ультра". <br> Тел. (097)411-4951, (093)942-6112. <br> #[a(href="mailto:c_ultra@ukr.net") c_ultra@ukr.net].
 
-        .row
-          .col-sm-6.col-md-4
-            img(src="images/logo-sk-ultra.png", alt="Спортивний клуб 'Ультра'")
-            .caption
-              h2 Спортивний клуб "Ультра"
-              p(style="font-size:14px;"): a(href="https://goo.gl/gHgqeh" target="_blank") goo.gl/gHgqeh
+        .col-sm-6.col-md-6
+          img(class="portrait", src="images/ipidluzhna.jpg", alt="Керівник змагань - Ірина Підлужна")
+          .caption
+            h2 Ірина Підлужна
+            p(style="font-size:14px;") Керівник змагань, президент туристично-спортивного клубу "Чорногора".<br> Тел. (063)722-6424, (097)945-0351. <br> #[a(href="mailto:pidluzhna.ira@gmail.com") pidluzhna.ira@gmail.com].
 
-          .col-sm-6.col-md-4
-            img(src="images/logo-tk-chornogora.png", alt="Туристично-спортивний клуб 'Чорногора'")
-            .caption
-              h2 Туристично-спортивний клуб "Чорногора"
-              p(style="font-size:14px;"): a(href="https://goo.gl/wUN2t0" target="_blank") goo.gl/wUN2t0
+      .row
+        .col-sm-6.col-md-4
+          img(src="images/logo-sk-ultra.png", alt="Спортивний клуб 'Ультра'")
+          .caption
+            h2 Спортивний клуб "Ультра"
+            p(style="font-size:14px;"): a(href="https://goo.gl/gHgqeh" target="_blank") goo.gl/gHgqeh
 
-          .col-sm-6.col-md-4
-            img(src="images/logo-flal.png", width="287", alt="Федерація легкої атлетики Львівської області")
-            .caption
-              h2 Федерація легкої атлетики Львівської області
-              p(style="font-size:14px;"): a(href="http://goo.gl/zVisk0" target="_blank") goo.gl/zVisk0
+        .col-sm-6.col-md-4
+          img(src="images/logo-tk-chornogora.png", alt="Туристично-спортивний клуб 'Чорногора'")
+          .caption
+            h2 Туристично-спортивний клуб "Чорногора"
+            p(style="font-size:14px;"): a(href="https://goo.gl/wUN2t0" target="_blank") goo.gl/wUN2t0
 
-    //- Footer
-    footer.footer
-      .container
-        p.text-muted.pull-left Спортивний клуб "Ультра" &copy; 2011-2016
-        p.text-muted.pull-right Розробка і технічна підтримка <a href="mailto:gvizdyk@gmail.com">Yuriy Hvozdovych</a>
-        
-    //- Google Analytics
-    script(type='text/javascript').
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-65285012-2', 'auto');
-      ga('send', 'pageview');
+        .col-sm-6.col-md-4
+          img(src="images/logo-flal.png", width="287", alt="Федерація легкої атлетики Львівської області")
+          .caption
+            h2 Федерація легкої атлетики Львівської області
+            p(style="font-size:14px;"): a(href="http://goo.gl/zVisk0" target="_blank") goo.gl/zVisk0
+
+  //- Footer
+  footer.footer
+    .container
+      p.text-muted.pull-left Спортивний клуб "Ультра" &copy; 2011-2016
+      p.text-muted.pull-right Розробка і технічна підтримка <a href="mailto:gvizdyk@gmail.com">Yuriy Hvozdovych</a>

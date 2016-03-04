@@ -1,0 +1,7 @@
+mixin item(attr,title,url)
+  li
+    a(href=url, class=language == attr ? 'active' : '')= title
+
+ul.language-selector
+  +item('ua','Укр', '/')
+  +item('en','En', '/en')

@@ -39,14 +39,13 @@ $(document).ready(function() {
 
 
   $('.owl-carousel').owlCarousel({
-    // items: 2,
     loop:true,
     margin:30,
     nav:true,
+    dots:false,
     responsive:{
       0:{
-          items:1,
-          nav:false
+          items:1
       },
       480:{
           items:2
