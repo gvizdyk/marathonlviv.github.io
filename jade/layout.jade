@@ -1,16 +1,34 @@
-- var titleSite = 'Львівський напівмарафон 2016 - 24 квітня 2016 року'
+- var titleSite = 'Львівський напівмарафон 2016'
+- var descriptionSite = 'Запрошуємо до участі у найочікуванішій біговій події весни в нашому місті Лева - Львівському півмарафоні. Львівський півмарафон відбуватиметься 24 квітня 2016 року у Львіві, старт о 10.00 на проспекті Свободи.'
 
 doctype html
 html
   head
     meta(charset='utf-8')
     meta(http-equiv='X-UA-Compatible', content='IE=edge')
-    meta(name='viewport', content='width=device-width')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(name='twitter:card', content='summary')
+    meta(content='website', property='og:type')
+    meta(content='/images/lviv-marathon.jpg', name='twitter:image')
+    meta(content='/images/lviv-marathon.jpg', property='og:image')
+    meta(content='/images/lviv-marathon.jpg', itemprop='image')
+    meta(content='image/png', property='og:image:type')
 
-    block title 
+    block title
       title #{titleSite}
+      meta(content='#{titleSite}', name='twitter:title')
+      meta(content='#{titleSite}', property='og:title')
+      meta(content='#{titleSite}', itemprop='name')
+      meta(content='#{titleSite}', property='og:site_name')
     block description
-      meta(name='description')
+      meta(content='#{descriptionSite}', name='description')
+      meta(content='#{descriptionSite}', name='twitter:description')
+      meta(content='#{descriptionSite}', property='og:description')
+      meta(content='#{descriptionSite}', itemprop='description')
+    block siteurl
+      meta(content="http://marathon.lviv.ua/" name="twitter:url")
+      meta(content="http://marathon.lviv.ua/" property="og:url")
+      link(rel='canonical', href='http://marathon.lviv.ua/')
 
     //- Favicon
     link(rel="apple-touch-icon", sizes="57x57", href="/images/favicons/apple-touch-icon-57x57.png")

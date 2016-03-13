@@ -3,9 +3,15 @@ extends ../jade/layout.jade
 block title
   - var pageTitle = 'Home'
   - var titleSite = 'Lviv Half Marathon 2016 - April 24, 2016'
-  title #{pageTitle} - #{titleSite}
-block description
-  meta(name='description', content='#{pageTitle}. #{titleSite}.')
+  title #{titleSite}
+  meta(content='#{titleSite}', name='twitter:title')
+  meta(content='#{titleSite}', property='og:title')
+  meta(content='#{titleSite}', itemprop='name')
+  meta(content='#{titleSite}', property='og:site_name')
+block siteurl
+  meta(content="http://marathon.lviv.ua/en/" name="twitter:url")
+  meta(content="http://marathon.lviv.ua/en/" property="og:url")
+  link(rel='canonical', href='http://marathon.lviv.ua/en/')
 
 block content
 
