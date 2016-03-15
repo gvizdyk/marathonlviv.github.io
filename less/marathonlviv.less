@@ -1,3 +1,6 @@
+@primary-color: #254e50;
+@secondary-color: #8a2300; //red
+
 h1 {
   font-family: 'Open Sans Condensed', sans-serif;
   margin-top: 0;
@@ -28,7 +31,10 @@ code {
   }
 
 a {
-  color: #AE292A;
+  color: @secondary-color;
+  &:hover {
+    color: @primary-color;
+  }
 }
 .hiddenStructure {
   display: none;
@@ -48,7 +54,8 @@ a {
     position: relative;
   }
   .d {
-    background-color: rgba(174, 41, 42, 1);
+    // background-color: rgba(174, 41, 42, 1);
+    background-color: @secondary-color;
     border-radius: 0 0 6px 6px;
     display: inline-block;
     font-size: 20px;
@@ -86,6 +93,15 @@ a {
   }
   .btn {
     margin: 26px 0px 20px;
+  }
+  .btn-danger {
+    background-color: @secondary-color;
+    border-color: @secondary-color;
+    &:hover,
+    &:focus {
+      background-color: lighten(@secondary-color, 15%);
+      border-color: lighten(@secondary-color, 15%);
+    }
   }
 }
 
