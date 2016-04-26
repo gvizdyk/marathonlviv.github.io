@@ -1,0 +1,2226 @@
+[
+  {
+    "FIELD1":"№ п/п",
+    "FIELD2":"Спортсмен",
+    "FIELD3":"Категорія",
+    "FIELD4":"Країна",
+    "FIELD5":"Місто",
+    "FIELD6":"Результат"
+  },
+  {
+    "FIELD1":"1",
+    "FIELD2":"Сало Тарас",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:09:59.27"
+  },
+  {
+    "FIELD1":"2",
+    "FIELD2":"Ростикус Роман",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:15:37.37"
+  },
+  {
+    "FIELD1":"3",
+    "FIELD2":"Коляда Костянтин",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:15:37.91"
+  },
+  {
+    "FIELD1":"4",
+    "FIELD2":"Расчупкiн Сергiй",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Мукачево",
+    "FIELD6":"01:16:46.11"
+  },
+  {
+    "FIELD1":"5",
+    "FIELD2":"Ченiкало Олександр",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:17:30.78"
+  },
+  {
+    "FIELD1":"6",
+    "FIELD2":"Лещишин Олег",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Стрий",
+    "FIELD6":"01:20:38.99"
+  },
+  {
+    "FIELD1":"7",
+    "FIELD2":"Євчук Василь",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Рiвне",
+    "FIELD6":"01:21:02.90"
+  },
+  {
+    "FIELD1":"8",
+    "FIELD2":"Чигiнь Назарiй",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"-",
+    "FIELD6":"01:21:06.81"
+  },
+  {
+    "FIELD1":"9",
+    "FIELD2":"Карташов Ростислав",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:21:50.35"
+  },
+  {
+    "FIELD1":"10",
+    "FIELD2":"Ханас Володимир",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:22:31.97"
+  },
+  {
+    "FIELD1":"11",
+    "FIELD2":"Добранський Богдан",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:23:42.22"
+  },
+  {
+    "FIELD1":"12",
+    "FIELD2":"Наумюк Руслан",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:25:36.29"
+  },
+  {
+    "FIELD1":"13",
+    "FIELD2":"Мудрик Юрiй",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:26:14.27"
+  },
+  {
+    "FIELD1":"14",
+    "FIELD2":"Гудак Марiя",
+    "FIELD3":"F-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Калуш",
+    "FIELD6":"01:26:19.62"
+  },
+  {
+    "FIELD1":"15",
+    "FIELD2":"Кварта Дмитро",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Харкiв",
+    "FIELD6":"01:26:29.65"
+  },
+  {
+    "FIELD1":"16",
+    "FIELD2":"Слотiн Артем",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Черкаси",
+    "FIELD6":"01:26:51.47"
+  },
+  {
+    "FIELD1":"17",
+    "FIELD2":"Угринчук Оксана",
+    "FIELD3":"F-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Iвано-Франкiвськ",
+    "FIELD6":"01:27:13.93"
+  },
+  {
+    "FIELD1":"18",
+    "FIELD2":"Федерко Владислав",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:27:19.30"
+  },
+  {
+    "FIELD1":"19",
+    "FIELD2":"Куриляк Василь",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Коломия",
+    "FIELD6":"01:27:23.86"
+  },
+  {
+    "FIELD1":"20",
+    "FIELD2":"Андрушенко Юрiй",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Малин",
+    "FIELD6":"01:27:51.92"
+  },
+  {
+    "FIELD1":"21",
+    "FIELD2":"Олiйник Наталiя",
+    "FIELD3":"F-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Тернопiль",
+    "FIELD6":"01:28:02.92"
+  },
+  {
+    "FIELD1":"22",
+    "FIELD2":"Богданець Микола",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Рокитне",
+    "FIELD6":"01:28:57.16"
+  },
+  {
+    "FIELD1":"23",
+    "FIELD2":"Пилипiв Iгор",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Жидачiв",
+    "FIELD6":"01:29:08.37"
+  },
+  {
+    "FIELD1":"24",
+    "FIELD2":"Патаман Тарас",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:29:21.61"
+  },
+  {
+    "FIELD1":"25",
+    "FIELD2":"Чепiль Роман",
+    "FIELD3":"M-40-49",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:29:37.68"
+  },
+  {
+    "FIELD1":"26",
+    "FIELD2":"Довбуш Роман",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:29:48.25"
+  },
+  {
+    "FIELD1":"27",
+    "FIELD2":"Камєшков Денис",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Днiпропетровськ",
+    "FIELD6":"01:29:53.18"
+  },
+  {
+    "FIELD1":"28",
+    "FIELD2":"Успенський Анатолiй",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:30:07.17"
+  },
+  {
+    "FIELD1":"29",
+    "FIELD2":"Марченко Андрiй",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:30:28.61"
+  },
+  {
+    "FIELD1":"30",
+    "FIELD2":"Бипко Андрiй",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:30:52.02"
+  },
+  {
+    "FIELD1":"31",
+    "FIELD2":"Гресс Назар",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:30:56.56"
+  },
+  {
+    "FIELD1":"32",
+    "FIELD2":"Вежичанин Назар",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Рокитне",
+    "FIELD6":"01:31:33.02"
+  },
+  {
+    "FIELD1":"33",
+    "FIELD2":"Панченко Сергiй",
+    "FIELD3":"M-40-49",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:31:46.13"
+  },
+  {
+    "FIELD1":"34",
+    "FIELD2":"Костюк Iгор",
+    "FIELD3":"M-60-69",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Iвано-Франкiвськ",
+    "FIELD6":"01:31:51.95"
+  },
+  {
+    "FIELD1":"35",
+    "FIELD2":"Сапiга Сергiй",
+    "FIELD3":"M-40-49",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Тернопiль",
+    "FIELD6":"01:32:10.63"
+  },
+  {
+    "FIELD1":"36",
+    "FIELD2":"Gonczarek Bartosz",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Poland",
+    "FIELD5":"Wroclaw",
+    "FIELD6":"01:32:26.34"
+  },
+  {
+    "FIELD1":"37",
+    "FIELD2":"Колосов Володимир",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Самбiр",
+    "FIELD6":"01:32:30.53"
+  },
+  {
+    "FIELD1":"38",
+    "FIELD2":"Бiланiв Андрiй",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Бурштин",
+    "FIELD6":"01:32:31.67"
+  },
+  {
+    "FIELD1":"39",
+    "FIELD2":"Масник Iрина",
+    "FIELD3":"F-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Тернопiль",
+    "FIELD6":"01:32:36.27"
+  },
+  {
+    "FIELD1":"40",
+    "FIELD2":"Марченко Олег",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:32:57.45"
+  },
+  {
+    "FIELD1":"41",
+    "FIELD2":"Кусень Павло",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:33:29.30"
+  },
+  {
+    "FIELD1":"42",
+    "FIELD2":"Семенюк Сергiй",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Ланiвцi",
+    "FIELD6":"01:33:31.87"
+  },
+  {
+    "FIELD1":"43",
+    "FIELD2":"Зиблiкевич Андрiй",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Старий Самбiр",
+    "FIELD6":"01:33:32.26"
+  },
+  {
+    "FIELD1":"44",
+    "FIELD2":"Трибунський Дмитро",
+    "FIELD3":"M-40-49",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Ужгород",
+    "FIELD6":"01:33:35.85"
+  },
+  {
+    "FIELD1":"45",
+    "FIELD2":"Гоєнко Микола",
+    "FIELD3":"M-50-59",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Харкiв",
+    "FIELD6":"01:34:32.30"
+  },
+  {
+    "FIELD1":"46",
+    "FIELD2":"Полковнiк Петро",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Яремче",
+    "FIELD6":"01:34:34.13"
+  },
+  {
+    "FIELD1":"47",
+    "FIELD2":"Сорохан Андрiй",
+    "FIELD3":"M-40-49",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:34:35.12"
+  },
+  {
+    "FIELD1":"48",
+    "FIELD2":"Ярцев Тимофiй",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Днiпропетровськ",
+    "FIELD6":"01:34:52.51"
+  },
+  {
+    "FIELD1":"49",
+    "FIELD2":"Солук Павло",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:34:58.32"
+  },
+  {
+    "FIELD1":"50",
+    "FIELD2":"Зенiк Олексiй",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:35:04.09"
+  },
+  {
+    "FIELD1":"51",
+    "FIELD2":"Струк Богдан",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:35:16.97"
+  },
+  {
+    "FIELD1":"52",
+    "FIELD2":"Воронюк Руслан",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Коломия",
+    "FIELD6":"01:36:40.96"
+  },
+  {
+    "FIELD1":"53",
+    "FIELD2":"Боднарук Василь",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Татарiв",
+    "FIELD6":"01:36:42.37"
+  },
+  {
+    "FIELD1":"54",
+    "FIELD2":"Дубовський Андрiй",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:37:20.23"
+  },
+  {
+    "FIELD1":"55",
+    "FIELD2":"Дзюба Роман",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Буськ",
+    "FIELD6":"01:37:23.03"
+  },
+  {
+    "FIELD1":"56",
+    "FIELD2":"Лабарткава Костянтин",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:37:25.73"
+  },
+  {
+    "FIELD1":"57",
+    "FIELD2":"Золiн Вiталiй",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Броди",
+    "FIELD6":"01:37:28.28"
+  },
+  {
+    "FIELD1":"58",
+    "FIELD2":"Деордиця Тiмур",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:37:38.77"
+  },
+  {
+    "FIELD1":"59",
+    "FIELD2":"Гораль Мечислав",
+    "FIELD3":"M-40-49",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:37:41.73"
+  },
+  {
+    "FIELD1":"60",
+    "FIELD2":"Глазков Богдан",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:37:42.16"
+  },
+  {
+    "FIELD1":"61",
+    "FIELD2":"Волошин Михайло",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Дрогобич",
+    "FIELD6":"01:37:46.90"
+  },
+  {
+    "FIELD1":"62",
+    "FIELD2":"Сташко Тарас",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:38:28.94"
+  },
+  {
+    "FIELD1":"63",
+    "FIELD2":"Левицький Василь",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:38:32.12"
+  },
+  {
+    "FIELD1":"64",
+    "FIELD2":"Вiкторов Олександр",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Бiла Церква",
+    "FIELD6":"01:38:50.65"
+  },
+  {
+    "FIELD1":"65",
+    "FIELD2":"Чернега Петро",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:39:06.97"
+  },
+  {
+    "FIELD1":"66",
+    "FIELD2":"Процик Роман",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Iвано-Франкiвськ",
+    "FIELD6":"01:39:08.37"
+  },
+  {
+    "FIELD1":"67",
+    "FIELD2":"Тищенко Микола",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Київ",
+    "FIELD6":"01:39:08.44"
+  },
+  {
+    "FIELD1":"68",
+    "FIELD2":"Мазур Сергiй",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Хмельницький",
+    "FIELD6":"01:39:39.26"
+  },
+  {
+    "FIELD1":"69",
+    "FIELD2":"Коцупир Володимир",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:39:55.48"
+  },
+  {
+    "FIELD1":"70",
+    "FIELD2":"Євстратьев Євген",
+    "FIELD3":"M-40-49",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:40:14.31"
+  },
+  {
+    "FIELD1":"71",
+    "FIELD2":"Жизняков Олег",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Стрий",
+    "FIELD6":"01:40:28.69"
+  },
+  {
+    "FIELD1":"72",
+    "FIELD2":"Млинко Андрiй",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:40:30.33"
+  },
+  {
+    "FIELD1":"73",
+    "FIELD2":"Денделєв Артем",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Київ",
+    "FIELD6":"01:41:01.81"
+  },
+  {
+    "FIELD1":"74",
+    "FIELD2":"Кулинич Микола",
+    "FIELD3":"M-50-59",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:41:23.59"
+  },
+  {
+    "FIELD1":"75",
+    "FIELD2":"Холод Орест",
+    "FIELD3":"M-50-59",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:41:34.10"
+  },
+  {
+    "FIELD1":"76",
+    "FIELD2":"Лiшчук Дмитро",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Бiла Церква",
+    "FIELD6":"01:41:40.38"
+  },
+  {
+    "FIELD1":"77",
+    "FIELD2":"Olmstead Thomas",
+    "FIELD3":"M-18-29",
+    "FIELD4":"United States",
+    "FIELD5":"Savana",
+    "FIELD6":"01:42:35.43"
+  },
+  {
+    "FIELD1":"78",
+    "FIELD2":"Шипунов Валерiй",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:42:53.63"
+  },
+  {
+    "FIELD1":"79",
+    "FIELD2":"Соляк Тарас",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:42:58.15"
+  },
+  {
+    "FIELD1":"80",
+    "FIELD2":"Кравченко Дмитро",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Днiпропетровськ",
+    "FIELD6":"01:43:01.68"
+  },
+  {
+    "FIELD1":"81",
+    "FIELD2":"Хитра Максим",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:43:38.65"
+  },
+  {
+    "FIELD1":"82",
+    "FIELD2":"Черемисiн Сергiй",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Жмеринка",
+    "FIELD6":"01:43:39.43"
+  },
+  {
+    "FIELD1":"83",
+    "FIELD2":"Рудик Вадим",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Кам'янець",
+    "FIELD6":"01:43:43.01"
+  },
+  {
+    "FIELD1":"84",
+    "FIELD2":"Ступак Вiталiй",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:43:52.43"
+  },
+  {
+    "FIELD1":"85",
+    "FIELD2":"Найда Олександр",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Тернопiль",
+    "FIELD6":"01:43:59.84"
+  },
+  {
+    "FIELD1":"86",
+    "FIELD2":"Легкий Максим",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:44:11.30"
+  },
+  {
+    "FIELD1":"87",
+    "FIELD2":"Чорнобай Анатолiй",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Київ",
+    "FIELD6":"01:45:07.13"
+  },
+  {
+    "FIELD1":"88",
+    "FIELD2":"Гiрковий Роман",
+    "FIELD3":"M-50-59",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:45:12.87"
+  },
+  {
+    "FIELD1":"89",
+    "FIELD2":"Курячий Анатолiй",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Днiпропетровськ",
+    "FIELD6":"01:45:24.75"
+  },
+  {
+    "FIELD1":"90",
+    "FIELD2":"Мельник Сергiй",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Poland",
+    "FIELD5":"Wroclaw",
+    "FIELD6":"01:45:30.88"
+  },
+  {
+    "FIELD1":"91",
+    "FIELD2":"Опанасенко Володимир",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Wroclaw",
+    "FIELD6":"01:45:46.92"
+  },
+  {
+    "FIELD1":"92",
+    "FIELD2":"Збир Дмитро",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Городок",
+    "FIELD6":"01:45:48.25"
+  },
+  {
+    "FIELD1":"93",
+    "FIELD2":"Михайлишин Андрiй",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:45:53.71"
+  },
+  {
+    "FIELD1":"94",
+    "FIELD2":"Мартинов Петро",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:46:01.70"
+  },
+  {
+    "FIELD1":"95",
+    "FIELD2":"Olsson Magdalena",
+    "FIELD3":"F-18-29",
+    "FIELD4":"Sweden",
+    "FIELD5":"Stockholm",
+    "FIELD6":"01:46:23.33"
+  },
+  {
+    "FIELD1":"96",
+    "FIELD2":"Гаврилов Антон",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:46:25.64"
+  },
+  {
+    "FIELD1":"97",
+    "FIELD2":"Ковалiско Iван",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:47:31.83"
+  },
+  {
+    "FIELD1":"98",
+    "FIELD2":"Гулька Андрiй",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Шепетiвка",
+    "FIELD6":"01:47:45.17"
+  },
+  {
+    "FIELD1":"99",
+    "FIELD2":"Якимiв Микола",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:47:47.27"
+  },
+  {
+    "FIELD1":"100",
+    "FIELD2":"Засинець Дмитро",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Червоноград",
+    "FIELD6":"01:47:53.82"
+  },
+  {
+    "FIELD1":"101",
+    "FIELD2":"Гливка Тарас",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:47:53.99"
+  },
+  {
+    "FIELD1":"102",
+    "FIELD2":"Будинський Дмитро",
+    "FIELD3":"M-40-49",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Ужгород",
+    "FIELD6":"01:48:05.77"
+  },
+  {
+    "FIELD1":"103",
+    "FIELD2":"Шпак Тарас",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Буськ",
+    "FIELD6":"01:48:10.43"
+  },
+  {
+    "FIELD1":"104",
+    "FIELD2":"Моргун Сергiй",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Київ",
+    "FIELD6":"01:48:22.12"
+  },
+  {
+    "FIELD1":"105",
+    "FIELD2":"Mathisen Reymond",
+    "FIELD3":"M-30-39",
+    "FIELD4":"0",
+    "FIELD5":"Mass",
+    "FIELD6":"01:48:37.49"
+  },
+  {
+    "FIELD1":"106",
+    "FIELD2":"Янiв Юрiй",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:49:08.47"
+  },
+  {
+    "FIELD1":"107",
+    "FIELD2":"Рукавiшнiков Валерiй",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:49:20.09"
+  },
+  {
+    "FIELD1":"108",
+    "FIELD2":"Пелех Андрiй",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Тернопiль",
+    "FIELD6":"01:49:20.46"
+  },
+  {
+    "FIELD1":"109",
+    "FIELD2":"Малицький Iгор",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:49:26.34"
+  },
+  {
+    "FIELD1":"110",
+    "FIELD2":"Яременко Дмитро",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Київ",
+    "FIELD6":"01:49:41.66"
+  },
+  {
+    "FIELD1":"111",
+    "FIELD2":"Malek Michal",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Poland",
+    "FIELD5":"Wroclaw",
+    "FIELD6":"01:50:09.82"
+  },
+  {
+    "FIELD1":"112",
+    "FIELD2":"Сергiйчук Павло",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:50:15.68"
+  },
+  {
+    "FIELD1":"113",
+    "FIELD2":"Попик Тарас",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:50:24.20"
+  },
+  {
+    "FIELD1":"114",
+    "FIELD2":"Лепявко Богдан",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Київ",
+    "FIELD6":"01:50:35.82"
+  },
+  {
+    "FIELD1":"115",
+    "FIELD2":"Умриш Володимир",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Буськ",
+    "FIELD6":"01:50:45.16"
+  },
+  {
+    "FIELD1":"116",
+    "FIELD2":"Дриль Руслан",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Сколе",
+    "FIELD6":"01:50:51.04"
+  },
+  {
+    "FIELD1":"117",
+    "FIELD2":"Кiнаш Юрiй",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:50:51.75"
+  },
+  {
+    "FIELD1":"118",
+    "FIELD2":"Маселко Тарас",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:50:52.51"
+  },
+  {
+    "FIELD1":"119",
+    "FIELD2":"Полiщук Роман",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:51:08.39"
+  },
+  {
+    "FIELD1":"120",
+    "FIELD2":"Урущак Iван",
+    "FIELD3":"M-60-69",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:51:17.23"
+  },
+  {
+    "FIELD1":"121",
+    "FIELD2":"Iльченко Свiтлана",
+    "FIELD3":"F-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Нетiшин",
+    "FIELD6":"01:51:21.48"
+  },
+  {
+    "FIELD1":"122",
+    "FIELD2":"Шубiн Юрiй",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Харкiв",
+    "FIELD6":"01:51:49.38"
+  },
+  {
+    "FIELD1":"123",
+    "FIELD2":"Калiчак Андрiй",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Стрий",
+    "FIELD6":"01:51:56.56"
+  },
+  {
+    "FIELD1":"124",
+    "FIELD2":"Jarosz Jaroslaw",
+    "FIELD3":"M-40-49",
+    "FIELD4":"Poland",
+    "FIELD5":"Opole",
+    "FIELD6":"01:51:57.18"
+  },
+  {
+    "FIELD1":"125",
+    "FIELD2":"Стадник Ольга",
+    "FIELD3":"F-50-59",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:52:22.55"
+  },
+  {
+    "FIELD1":"126",
+    "FIELD2":"Iжик Тарас",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:53:08.98"
+  },
+  {
+    "FIELD1":"127",
+    "FIELD2":"Брагiн Артем",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Харкiв",
+    "FIELD6":"01:53:13.59"
+  },
+  {
+    "FIELD1":"128",
+    "FIELD2":"Wheeler Tyler",
+    "FIELD3":"M-18-29",
+    "FIELD4":"United States",
+    "FIELD5":"Savana",
+    "FIELD6":"01:53:33.94"
+  },
+  {
+    "FIELD1":"129",
+    "FIELD2":"Мордiк Павло",
+    "FIELD3":"M-40-49",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Київ",
+    "FIELD6":"01:53:37.46"
+  },
+  {
+    "FIELD1":"130",
+    "FIELD2":"Gregoir Dattee",
+    "FIELD3":"M-40-49",
+    "FIELD4":"France",
+    "FIELD5":"Paris",
+    "FIELD6":"01:53:40.99"
+  },
+  {
+    "FIELD1":"131",
+    "FIELD2":"Голоднiк Денис",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:53:41.04"
+  },
+  {
+    "FIELD1":"132",
+    "FIELD2":"Koziol Boguslaw",
+    "FIELD3":"M-40-49",
+    "FIELD4":"Poland",
+    "FIELD5":"Olecznica",
+    "FIELD6":"01:53:50.41"
+  },
+  {
+    "FIELD1":"133",
+    "FIELD2":"Марчук Дмитро",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Ладижин",
+    "FIELD6":"01:53:50.91"
+  },
+  {
+    "FIELD1":"134",
+    "FIELD2":"Якимiв Василь",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:53:51.44"
+  },
+  {
+    "FIELD1":"135",
+    "FIELD2":"Wroblewski Mieczyslaw",
+    "FIELD3":"M-60-69",
+    "FIELD4":"Poland",
+    "FIELD5":"Wroclaw",
+    "FIELD6":"01:54:00.11"
+  },
+  {
+    "FIELD1":"136",
+    "FIELD2":"Давиденко Тетяна",
+    "FIELD3":"F-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:54:05.00"
+  },
+  {
+    "FIELD1":"137",
+    "FIELD2":"Заполух богдан",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Тернопiль",
+    "FIELD6":"01:54:41.02"
+  },
+  {
+    "FIELD1":"138",
+    "FIELD2":"Яровий Iван",
+    "FIELD3":"M-40-49",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Київ",
+    "FIELD6":"01:55:01.02"
+  },
+  {
+    "FIELD1":"139",
+    "FIELD2":"Бабак Тамiла",
+    "FIELD3":"F-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:55:19.77"
+  },
+  {
+    "FIELD1":"140",
+    "FIELD2":"Вигнанський Тарас",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Комарно",
+    "FIELD6":"01:55:24.44"
+  },
+  {
+    "FIELD1":"141",
+    "FIELD2":"Пашко Юрiй",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:55:28.11"
+  },
+  {
+    "FIELD1":"142",
+    "FIELD2":"Олiйник Марьян",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Золочiв",
+    "FIELD6":"01:55:43.40"
+  },
+  {
+    "FIELD1":"143",
+    "FIELD2":"Полюлюк Марiя",
+    "FIELD3":"F-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"-",
+    "FIELD6":"01:55:43.95"
+  },
+  {
+    "FIELD1":"144",
+    "FIELD2":"Blake Samuel",
+    "FIELD3":"M-18-29",
+    "FIELD4":"United States",
+    "FIELD5":"Savana",
+    "FIELD6":"01:55:48.33"
+  },
+  {
+    "FIELD1":"145",
+    "FIELD2":"Черняк Євген",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Бровары",
+    "FIELD6":"01:56:00.02"
+  },
+  {
+    "FIELD1":"146",
+    "FIELD2":"Сердюк Євген",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Київ",
+    "FIELD6":"01:56:32.09"
+  },
+  {
+    "FIELD1":"147",
+    "FIELD2":"Барановський Данило",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:56:41.56"
+  },
+  {
+    "FIELD1":"148",
+    "FIELD2":"Ардинський Олексiй",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Бровари",
+    "FIELD6":"01:56:43.51"
+  },
+  {
+    "FIELD1":"149",
+    "FIELD2":"Шажко Валерiй",
+    "FIELD3":"M-40-49",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:57:07.81"
+  },
+  {
+    "FIELD1":"150",
+    "FIELD2":"Грисюк Сергiй",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Радивилiв",
+    "FIELD6":"01:57:20.81"
+  },
+  {
+    "FIELD1":"151",
+    "FIELD2":"Шамарiн Леонiд",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:57:33.63"
+  },
+  {
+    "FIELD1":"152",
+    "FIELD2":"Будкiн Валентин",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Рiвне",
+    "FIELD6":"01:57:35.43"
+  },
+  {
+    "FIELD1":"153",
+    "FIELD2":"Музичук Юрiй",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:57:50.56"
+  },
+  {
+    "FIELD1":"154",
+    "FIELD2":"Добровольський Сергiй",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Марiуполь",
+    "FIELD6":"01:58:08.13"
+  },
+  {
+    "FIELD1":"155",
+    "FIELD2":"Гелюта Олександр",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:58:15.28"
+  },
+  {
+    "FIELD1":"156",
+    "FIELD2":"Павлишин Iгор",
+    "FIELD3":"M-40-49",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Стрий",
+    "FIELD6":"01:58:25.87"
+  },
+  {
+    "FIELD1":"157",
+    "FIELD2":"Островська Марiя",
+    "FIELD3":"F-60-69",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:58:30.67"
+  },
+  {
+    "FIELD1":"158",
+    "FIELD2":"Сафiн Олег",
+    "FIELD3":"M-50-59",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Соснiвка",
+    "FIELD6":"01:58:39.28"
+  },
+  {
+    "FIELD1":"159",
+    "FIELD2":"Gorzelak Artur",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Poland",
+    "FIELD5":"Warszawa",
+    "FIELD6":"01:58:42.02"
+  },
+  {
+    "FIELD1":"160",
+    "FIELD2":"Кулагiн Максим",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:59:21.41"
+  },
+  {
+    "FIELD1":"161",
+    "FIELD2":"Polak Jakub",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Poland",
+    "FIELD5":"Wroclaw",
+    "FIELD6":"01:59:28.68"
+  },
+  {
+    "FIELD1":"162",
+    "FIELD2":"Ружицький Руслан",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"01:59:33.97"
+  },
+  {
+    "FIELD1":"163",
+    "FIELD2":"Волоський Павло",
+    "FIELD3":"M-40-49",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Чорткiв",
+    "FIELD6":"01:59:40.58"
+  },
+  {
+    "FIELD1":"164",
+    "FIELD2":"Рой Ольга",
+    "FIELD3":"F-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Київ",
+    "FIELD6":"02:00:07.86"
+  },
+  {
+    "FIELD1":"165",
+    "FIELD2":"Тишкевич Вiталiй",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:00:17.84"
+  },
+  {
+    "FIELD1":"166",
+    "FIELD2":"Шоробура Микола",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:00:23.15"
+  },
+  {
+    "FIELD1":"167",
+    "FIELD2":"Павлик Андрiй",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Жовква",
+    "FIELD6":"02:00:36.76"
+  },
+  {
+    "FIELD1":"168",
+    "FIELD2":"Процiв Назар",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:00:47.01"
+  },
+  {
+    "FIELD1":"169",
+    "FIELD2":"Попович Iван",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Луганськ",
+    "FIELD6":"02:00:58.47"
+  },
+  {
+    "FIELD1":"170",
+    "FIELD2":"Толочко Олександр",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:01:16.74"
+  },
+  {
+    "FIELD1":"171",
+    "FIELD2":"Данилiв Тетяна",
+    "FIELD3":"F-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:01:21.54"
+  },
+  {
+    "FIELD1":"172",
+    "FIELD2":"Полупан Дмитро",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:01:48.61"
+  },
+  {
+    "FIELD1":"173",
+    "FIELD2":"Кушнiр Юрiй",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Iвано-Франкiвськ",
+    "FIELD6":"02:01:58.80"
+  },
+  {
+    "FIELD1":"174",
+    "FIELD2":"Edison Thomas",
+    "FIELD3":"M-18-29",
+    "FIELD4":"United States",
+    "FIELD5":"Savana",
+    "FIELD6":"02:01:59.85"
+  },
+  {
+    "FIELD1":"175",
+    "FIELD2":"Михалкевич Iгор",
+    "FIELD3":"M-40-49",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:02:09.83"
+  },
+  {
+    "FIELD1":"176",
+    "FIELD2":"Маковiйчук Танасiй",
+    "FIELD3":"M-60-69",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Кiцмань",
+    "FIELD6":"02:02:28.71"
+  },
+  {
+    "FIELD1":"177",
+    "FIELD2":"Савчинська Тетяна",
+    "FIELD3":"F-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:02:35.15"
+  },
+  {
+    "FIELD1":"178",
+    "FIELD2":"Гарасимiв Iгор",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:02:44.00"
+  },
+  {
+    "FIELD1":"179",
+    "FIELD2":"Бобрицький Олександр",
+    "FIELD3":"M-50-59",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:03:35.19"
+  },
+  {
+    "FIELD1":"180",
+    "FIELD2":"Музичук Олександр",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:03:36.99"
+  },
+  {
+    "FIELD1":"181",
+    "FIELD2":"Jakubczyk Adrian",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Poland",
+    "FIELD5":"-",
+    "FIELD6":"02:03:38.23"
+  },
+  {
+    "FIELD1":"182",
+    "FIELD2":"Woznicka Malgorzata",
+    "FIELD3":"F-30-39",
+    "FIELD4":"Poland",
+    "FIELD5":"Wroclaw",
+    "FIELD6":"02:03:44.46"
+  },
+  {
+    "FIELD1":"183",
+    "FIELD2":"Манзик Євген",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:03:48.40"
+  },
+  {
+    "FIELD1":"184",
+    "FIELD2":"Лопушевська Ольга",
+    "FIELD3":"F-40-49",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:04:18.86"
+  },
+  {
+    "FIELD1":"185",
+    "FIELD2":"Крупський Василь",
+    "FIELD3":"M-70+",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:04:51.79"
+  },
+  {
+    "FIELD1":"186",
+    "FIELD2":"Здреник Андрiй",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:05:06.69"
+  },
+  {
+    "FIELD1":"187",
+    "FIELD2":"Михайлюков Вадим",
+    "FIELD3":"M-40-49",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:05:19.40"
+  },
+  {
+    "FIELD1":"188",
+    "FIELD2":"Михайлюкова Вiкторiя",
+    "FIELD3":"F-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:05:19.46"
+  },
+  {
+    "FIELD1":"189",
+    "FIELD2":"Ксьонжик Лiдiя",
+    "FIELD3":"F-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:05:44.32"
+  },
+  {
+    "FIELD1":"190",
+    "FIELD2":"Пилип Вiталiй",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Чорткiв",
+    "FIELD6":"02:06:03.93"
+  },
+  {
+    "FIELD1":"191",
+    "FIELD2":"Бусел Дмитро",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:06:11.94"
+  },
+  {
+    "FIELD1":"192",
+    "FIELD2":"Карпов Євген",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Днiпропетровськ",
+    "FIELD6":"02:06:59.45"
+  },
+  {
+    "FIELD1":"193",
+    "FIELD2":"Ходаковський Олександр",
+    "FIELD3":"M-40-49",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:07:01.51"
+  },
+  {
+    "FIELD1":"194",
+    "FIELD2":"Варнацька Галина",
+    "FIELD3":"F-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Дрогобич",
+    "FIELD6":"02:07:02.46"
+  },
+  {
+    "FIELD1":"195",
+    "FIELD2":"Токар Анатолiй",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Iвано-Франкiвськ",
+    "FIELD6":"02:07:06.80"
+  },
+  {
+    "FIELD1":"196",
+    "FIELD2":"Гавур Орест",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"-",
+    "FIELD6":"02:07:21.76"
+  },
+  {
+    "FIELD1":"197",
+    "FIELD2":"Чумаченко Надiя",
+    "FIELD3":"F-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Київ",
+    "FIELD6":"02:07:28.62"
+  },
+  {
+    "FIELD1":"198",
+    "FIELD2":"Чеховський Павло",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Буськ",
+    "FIELD6":"02:07:29.51"
+  },
+  {
+    "FIELD1":"199",
+    "FIELD2":"Угрин Любомир",
+    "FIELD3":"M-50-59",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:07:34.82"
+  },
+  {
+    "FIELD1":"200",
+    "FIELD2":"Яворська Тетяна",
+    "FIELD3":"F-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:07:48.39"
+  },
+  {
+    "FIELD1":"201",
+    "FIELD2":"Горбанюк Павло",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Belarus",
+    "FIELD5":"Мiнськ",
+    "FIELD6":"02:07:50.58"
+  },
+  {
+    "FIELD1":"202",
+    "FIELD2":"Борнiк Петро",
+    "FIELD3":"M-60-69",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Сарни",
+    "FIELD6":"02:08:22.15"
+  },
+  {
+    "FIELD1":"203",
+    "FIELD2":"Федина Iгор",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Ужгород",
+    "FIELD6":"02:08:33.25"
+  },
+  {
+    "FIELD1":"204",
+    "FIELD2":"Купець Тарас",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:08:55.87"
+  },
+  {
+    "FIELD1":"205",
+    "FIELD2":"Лола Ольга",
+    "FIELD3":"F-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Тернопiль",
+    "FIELD6":"02:08:57.59"
+  },
+  {
+    "FIELD1":"206",
+    "FIELD2":"Ткаченко Владислав",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Iвано-Франкiвськ",
+    "FIELD6":"02:09:01.92"
+  },
+  {
+    "FIELD1":"207",
+    "FIELD2":"Гришко Володимир",
+    "FIELD3":"M-40-49",
+    "FIELD4":"Ukraine",
+    "FIELD5":"",
+    "FIELD6":"02:10:01.45"
+  },
+  {
+    "FIELD1":"208",
+    "FIELD2":"Соляк Тарас",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:10:20.49"
+  },
+  {
+    "FIELD1":"209",
+    "FIELD2":"Кувiла Олена",
+    "FIELD3":"F-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:10:24.24"
+  },
+  {
+    "FIELD1":"210",
+    "FIELD2":"Хорошилов Свiтлана",
+    "FIELD3":"F-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:10:48.88"
+  },
+  {
+    "FIELD1":"211",
+    "FIELD2":"Гошко Маркiян",
+    "FIELD3":"M-40-49",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Дубляни",
+    "FIELD6":"02:10:52.74"
+  },
+  {
+    "FIELD1":"212",
+    "FIELD2":"Ткач Андрiй",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Старий Яр",
+    "FIELD6":"02:10:53.06"
+  },
+  {
+    "FIELD1":"213",
+    "FIELD2":"Chandeszko Bartosz",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Poland",
+    "FIELD5":"Warszawa",
+    "FIELD6":"02:10:55.18"
+  },
+  {
+    "FIELD1":"214",
+    "FIELD2":"Гуль Ярослав",
+    "FIELD3":"M-40-49",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:10:57.67"
+  },
+  {
+    "FIELD1":"215",
+    "FIELD2":"Зеленов Кирил",
+    "FIELD3":"M-40-49",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:11:15.35"
+  },
+  {
+    "FIELD1":"216",
+    "FIELD2":"Можалов Денис",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:11:15.67"
+  },
+  {
+    "FIELD1":"217",
+    "FIELD2":"Маковейчук Олександр",
+    "FIELD3":"M-40-49",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:11:30.46"
+  },
+  {
+    "FIELD1":"218",
+    "FIELD2":"Suchenia Daniel",
+    "FIELD3":"M-40-49",
+    "FIELD4":"Poland",
+    "FIELD5":"Walbrzych",
+    "FIELD6":"02:11:32.91"
+  },
+  {
+    "FIELD1":"219",
+    "FIELD2":"Рузак Артем",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:11:36.57"
+  },
+  {
+    "FIELD1":"220",
+    "FIELD2":"Попович Роман",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:11:43.19"
+  },
+  {
+    "FIELD1":"221",
+    "FIELD2":"Воннак Дiана",
+    "FIELD3":"F-18-29",
+    "FIELD4":"Hungary",
+    "FIELD5":"Budapest",
+    "FIELD6":"02:11:56.61"
+  },
+  {
+    "FIELD1":"222",
+    "FIELD2":"Kirstein Kamila",
+    "FIELD3":"F-30-39",
+    "FIELD4":"Poland",
+    "FIELD5":"Wroclaw",
+    "FIELD6":"02:11:59.44"
+  },
+  {
+    "FIELD1":"223",
+    "FIELD2":"Моргун Олег",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Київ",
+    "FIELD6":"02:12:15.73"
+  },
+  {
+    "FIELD1":"224",
+    "FIELD2":"Корнейчук Iрина",
+    "FIELD3":"F-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:12:20.19"
+  },
+  {
+    "FIELD1":"225",
+    "FIELD2":"Алексєєв Олександр",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:12:35.83"
+  },
+  {
+    "FIELD1":"226",
+    "FIELD2":"Приймак Михайло",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:12:38.99"
+  },
+  {
+    "FIELD1":"227",
+    "FIELD2":"Соломаха Христина",
+    "FIELD3":"F-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:12:46.04"
+  },
+  {
+    "FIELD1":"228",
+    "FIELD2":"Tyka Zbigniew",
+    "FIELD3":"M-40-49",
+    "FIELD4":"Poland",
+    "FIELD5":"Kidrzierzyn-Kozle",
+    "FIELD6":"02:13:16.23"
+  },
+  {
+    "FIELD1":"229",
+    "FIELD2":"Гливка Iван",
+    "FIELD3":"M-60-69",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:13:23.42"
+  },
+  {
+    "FIELD1":"230",
+    "FIELD2":"Бiлий Сергiй",
+    "FIELD3":"M-60-69",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:13:43.64"
+  },
+  {
+    "FIELD1":"231",
+    "FIELD2":"Грицак Павло",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:13:56.13"
+  },
+  {
+    "FIELD1":"232",
+    "FIELD2":"Бегаль Iрина",
+    "FIELD3":"F-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Луцьк",
+    "FIELD6":"02:14:20.91"
+  },
+  {
+    "FIELD1":"233",
+    "FIELD2":"Заставний Назар",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:14:40.36"
+  },
+  {
+    "FIELD1":"234",
+    "FIELD2":"Wasowski Andrzej",
+    "FIELD3":"M-40-49",
+    "FIELD4":"Poland",
+    "FIELD5":"Sosnoviec",
+    "FIELD6":"02:14:47.44"
+  },
+  {
+    "FIELD1":"235",
+    "FIELD2":"Собко Оксана",
+    "FIELD3":"F-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:15:07.68"
+  },
+  {
+    "FIELD1":"236",
+    "FIELD2":"Приступа Владислав",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:17:24.87"
+  },
+  {
+    "FIELD1":"237",
+    "FIELD2":"Обуханич Юрiй",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Самбiр",
+    "FIELD6":"02:17:37.97"
+  },
+  {
+    "FIELD1":"238",
+    "FIELD2":"Фесак Олександр",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Золочiв",
+    "FIELD6":"02:18:24.81"
+  },
+  {
+    "FIELD1":"239",
+    "FIELD2":"Шкель Андрiй",
+    "FIELD3":"M-40-49",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:19:20.70"
+  },
+  {
+    "FIELD1":"240",
+    "FIELD2":"Островська Ядвiга",
+    "FIELD3":"F-60-69",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:19:40.99"
+  },
+  {
+    "FIELD1":"241",
+    "FIELD2":"Гоша Богдан",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Київ",
+    "FIELD6":"02:20:30.05"
+  },
+  {
+    "FIELD1":"242",
+    "FIELD2":"Шпак Микита",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:20:38.39"
+  },
+  {
+    "FIELD1":"243",
+    "FIELD2":"Зановьяк Анна",
+    "FIELD3":"F-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:20:39.95"
+  },
+  {
+    "FIELD1":"244",
+    "FIELD2":"Серант Марьяна",
+    "FIELD3":"F-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:20:58.32"
+  },
+  {
+    "FIELD1":"245",
+    "FIELD2":"Дутко Iрина",
+    "FIELD3":"F-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Дрогобич",
+    "FIELD6":"02:21:02.88"
+  },
+  {
+    "FIELD1":"246",
+    "FIELD2":"Балiцька Оксана",
+    "FIELD3":"F-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:21:11.76"
+  },
+  {
+    "FIELD1":"247",
+    "FIELD2":"Музала Анна",
+    "FIELD3":"F-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:21:11.99"
+  },
+  {
+    "FIELD1":"248",
+    "FIELD2":"Пивоваров Олексiй",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:21:44.88"
+  },
+  {
+    "FIELD1":"249",
+    "FIELD2":"Шептицький Богдан",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:22:11.52"
+  },
+  {
+    "FIELD1":"250",
+    "FIELD2":"Стаднюк Iрина",
+    "FIELD3":"F-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:22:33.88"
+  },
+  {
+    "FIELD1":"251",
+    "FIELD2":"Орищич Юрiй",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:22:36.28"
+  },
+  {
+    "FIELD1":"252",
+    "FIELD2":"Wielgus Izabela",
+    "FIELD3":"F-30-39",
+    "FIELD4":"Poland",
+    "FIELD5":"Wroclaw",
+    "FIELD6":"02:22:57.70"
+  },
+  {
+    "FIELD1":"253",
+    "FIELD2":"Армук-Попов Кирил",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:23:39.62"
+  },
+  {
+    "FIELD1":"254",
+    "FIELD2":"Сидор Тарас",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Льiвiв",
+    "FIELD6":"02:24:33.52"
+  },
+  {
+    "FIELD1":"255",
+    "FIELD2":"Красуцька Ольга",
+    "FIELD3":"F-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:25:44.27"
+  },
+  {
+    "FIELD1":"256",
+    "FIELD2":"Соболевський Iгор",
+    "FIELD3":"M-60-69",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Новий Роздiл",
+    "FIELD6":"02:26:13.93"
+  },
+  {
+    "FIELD1":"257",
+    "FIELD2":"Кравченко Альона",
+    "FIELD3":"F-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Київ",
+    "FIELD6":"02:27:20.20"
+  },
+  {
+    "FIELD1":"258",
+    "FIELD2":"Циганков Дмитро",
+    "FIELD3":"M-40-49",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:27:57.53"
+  },
+  {
+    "FIELD1":"259",
+    "FIELD2":"Глушко Анна",
+    "FIELD3":"F-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:28:51.23"
+  },
+  {
+    "FIELD1":"260",
+    "FIELD2":"Ковальчук Андрiй",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Житомир",
+    "FIELD6":"02:29:39.61"
+  },
+  {
+    "FIELD1":"261",
+    "FIELD2":"Peres Johnie",
+    "FIELD3":"M-18-29",
+    "FIELD4":"United States",
+    "FIELD5":"Savana",
+    "FIELD6":"02:29:56.82"
+  },
+  {
+    "FIELD1":"262",
+    "FIELD2":"Шаховал Ольга",
+    "FIELD3":"F-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:31:00.67"
+  },
+  {
+    "FIELD1":"263",
+    "FIELD2":"Craven Edward",
+    "FIELD3":"M-18-29",
+    "FIELD4":"United States",
+    "FIELD5":"Savana",
+    "FIELD6":"02:31:17.48"
+  },
+  {
+    "FIELD1":"264",
+    "FIELD2":"Равлюк Максим",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:31:40.45"
+  },
+  {
+    "FIELD1":"265",
+    "FIELD2":"Mason Pustin",
+    "FIELD3":"M-18-29",
+    "FIELD4":"United States",
+    "FIELD5":"Savana",
+    "FIELD6":"02:31:44.06"
+  },
+  {
+    "FIELD1":"266",
+    "FIELD2":"Хiмяк Орися",
+    "FIELD3":"F-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:32:06.28"
+  },
+  {
+    "FIELD1":"267",
+    "FIELD2":"Ciolek Bartek",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Poland",
+    "FIELD5":"Rawa-Maz",
+    "FIELD6":"02:33:09.87"
+  },
+  {
+    "FIELD1":"268",
+    "FIELD2":"Рижук Христина",
+    "FIELD3":"F-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:33:49.52"
+  },
+  {
+    "FIELD1":"269",
+    "FIELD2":"Бондар Сергiй",
+    "FIELD3":"M-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Бровари",
+    "FIELD6":"02:35:40.18"
+  },
+  {
+    "FIELD1":"270",
+    "FIELD2":"Nosko Jerzy",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Poland",
+    "FIELD5":"Wroclaw",
+    "FIELD6":"02:38:20.01"
+  },
+  {
+    "FIELD1":"271",
+    "FIELD2":"Дзяна Василь",
+    "FIELD3":"M-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:39:00.81"
+  },
+  {
+    "FIELD1":"272",
+    "FIELD2":"Дзяна Любов",
+    "FIELD3":"F-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:39:01.09"
+  },
+  {
+    "FIELD1":"273",
+    "FIELD2":"Кулiнко Олександра",
+    "FIELD3":"F-18-29",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:40:03.91"
+  },
+  {
+    "FIELD1":"274",
+    "FIELD2":"Наванкевич Юля",
+    "FIELD3":"F-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:41:15.46"
+  },
+  {
+    "FIELD1":"275",
+    "FIELD2":"Петрiв Юлiя",
+    "FIELD3":"F-30-39",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Днiпропетровськ",
+    "FIELD6":"02:43:07.27"
+  },
+  {
+    "FIELD1":"276",
+    "FIELD2":"Шапочка Валерiй",
+    "FIELD3":"M-40-49",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:43:42.87"
+  },
+  {
+    "FIELD1":"277",
+    "FIELD2":"Лабарткава Лариса",
+    "FIELD3":"F-60-69",
+    "FIELD4":"Ukraine",
+    "FIELD5":"Львiв",
+    "FIELD6":"02:51:57.29"
+  }
+]
