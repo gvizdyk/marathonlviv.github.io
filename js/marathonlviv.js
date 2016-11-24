@@ -14,7 +14,7 @@ $(document).ready(function() {
   // * Setting flipclock.js
   // **
   // Set dates.
-  var futureDate  = new Date("April 24, 2016 02:00 AM EDT");
+  var futureDate  = new Date("April 23, 2017 02:00 AM EDT");
   var currentDate = new Date();
   // Calculate the difference in seconds between the future and current date
   var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
